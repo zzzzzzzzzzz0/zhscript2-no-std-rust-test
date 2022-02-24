@@ -1,0 +1,152 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'args'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=args",
+                    "--package=args"
+                ],
+                "filter": {
+                    "name": "args",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'def-backarg'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=def-backarg",
+                    "--package=def-backarg"
+                ],
+                "filter": {
+                    "name": "def-backarg",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'def-noarg'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=def-noarg",
+                    "--package=def-noarg"
+                ],
+                "filter": {
+                    "name": "def-noarg",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'def-start'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=def-start",
+                    "--package=def-start"
+                ],
+                "filter": {
+                    "name": "def-start",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'expl1add2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=expl1add2",
+                    "--package=expl1add2"
+                ],
+                "filter": {
+                    "name": "expl1add2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'for11'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=for11",
+                    "--package=for11"
+                ],
+                "filter": {
+                    "name": "for11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'helloliteos'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=helloliteos",
+                    "--package=helloliteos"
+                ],
+                "filter": {
+                    "name": "helloliteos",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'set-var'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=set-var",
+                    "--package=set-var"
+                ],
+                "filter": {
+                    "name": "set-var",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
