@@ -1,0 +1,14 @@
+[package]
+name = "def-noarg"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#zhscript2-no-std = { path = "/opt2/src/test/zhscript2-no-std-rust/", version = "0.1.6", features = ["no"] }
+zhscript2-no-std = { git = "https://github.com/zzzzzzzzzzz0/zhscript2-no-std-rust", version = "0.1.6", features = ["no"] }
+#  duplicate key: `git` for key `dependencies.zhscript2-no-std` at line 11 column 20
+#  dependency (zhscript2-no-std) specification is ambiguous. Only one of `git` or `path` is allowed.
+#但这种多源的写法岂不更具灵活性？
+#zhscript2-no-std = { path = "../../zhscript2-no-std-rust", git = "https://gitee.com/zzzzzzzzzzz4/zhscript2-no-std-rust", git = "https://github.com/zzzzzzzzzzz0/zhscript2-no-std-rust", version = "0.1.6", features = ["no"] }

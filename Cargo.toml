@@ -7,4 +7,5 @@ members = [
 	"def-backarg",
 	"for11",
 	"set-var",
+	"def-noarg",
 ]
