@@ -79,6 +79,24 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug 'eval'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=eval",
+                    "--package=eval"
+                ],
+                "filter": {
+                    "name": "eval",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug 'expl1add2'",
             "cargo": {
                 "args": [
@@ -133,6 +151,24 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug 'l4'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--package=l4"
+                ],
+                "filter": {
+                    "name": "l4",
+                    "kind": "cdylib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug 'set-var'",
             "cargo": {
                 "args": [
@@ -142,6 +178,24 @@
                 ],
                 "filter": {
                     "name": "set-var",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug 'ytest'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=ytest",
+                    "--package=ytest"
+                ],
+                "filter": {
+                    "name": "ytest",
                     "kind": "bin"
                 }
             },

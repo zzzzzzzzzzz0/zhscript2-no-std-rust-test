@@ -8,4 +8,7 @@ members = [
 	"for11",
 	"set-var",
 	"def-noarg",
+	"eval",
+	"l4",
+	"ytest",
 ]

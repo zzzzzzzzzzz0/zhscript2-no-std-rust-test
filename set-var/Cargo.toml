@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 #zhscript2-no-std = { path = "../../zhscript2-no-std-rust", version = "0.1.5", features = ["no"] }
-zhscript2-no-std = { git = "https://github.com/zzzzzzzzzzz0/zhscript2-no-std-rust", version = "0.1.5", features = ["no"] }
+zhscript2-no-std = { git = "https://github.com/zzzzzzzzzzz0/zhscript2-no-std-rust", features = ["no"] }

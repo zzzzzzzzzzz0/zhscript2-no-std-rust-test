@@ -15,6 +15,12 @@
 		target再来
 	了。
 	显示‘名’换行。
+	赋予--bin、kind以分叉‘名’先
+		l4先下文本"test",
+                    "--no-run",上文本、cdylib了。
+		先下文本"build",
+                    "--bin=‘名’",上文本、bin了
+	了。
 	赋予出以‘出’先如果‘出’那么,了下文本
         {
             "type": "lldb",
@@ -22,13 +28,12 @@
             "name": "Debug '‘名’'",
             "cargo": {
                 "args": [
-                    "build",
-                    "--bin=‘名’",
+                    ‘--bin’
                     "--package=‘名’"
                 ],
                 "filter": {
                     "name": "‘名’",
-                    "kind": "bin"
+                    "kind": "‘kind’"
                 }
             },
             "args": [],
