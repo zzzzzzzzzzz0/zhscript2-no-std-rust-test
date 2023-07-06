@@ -1,0 +1,9 @@
+[package]
+name = "ytest"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zhscript2-no-std = { path = "/opt2/src/test/zhscript2-no-std-rust/", features = ["no"] }
